@@ -1,0 +1,167 @@
+/*front page code*/
+div.Front_Page_Header{
+left: 0;
+line-height: 200px;
+margin-top: -100px;
+position: absolute;
+text-align: center;
+top: 50%;
+width: 100%;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color:#290001;
+}
+
+/*skills page code*/
+.Skills_Header{
+
+}
+
+li.Engineering_Skills{
+text-align:center;
+list-style-type: none;
+padding-bottom: 10px;
+color:#290001;
+}
+/*project page code*/
+h1.Projects_Subheader{
+background-color: #87431D;
+margin:0;
+padding:0;
+text-align: center;
+color:#290001;
+}
+
+h2.Projects_Miniheader{
+text-align: center;
+color:#290001;
+}
+
+h2.Projects_Miniheader:after{
+content:' ';
+display:block;
+border:2px solid #290001;
+}
+
+p.project_text{
+text-align: center;
+color:#290001;
+}
+
+li.plant_list{
+list-style-type: none;
+text-align: center;
+margin:10px 0;
+color:#290001;
+}
+
+/*Contact page code*/
+.Contacts_Header{
+
+}
+
+ul.Contacts_List{
+list-style-type: none;
+margin: 0;
+padding: 0;
+text-align: center;
+color:#290001;
+}
+
+p.email_contact_text{
+text-align: center;
+color:#290001;
+}
+
+textarea.Email_Textbox{
+height: 200px;
+margin-left: 20%;
+align-items:center;
+width: 60%;
+
+}
+
+button.send_email_button{
+background-color: rgb(96, 175, 224);
+border:none;
+color: white;
+display:inline-block;
+margin-left: 47.5%;
+margin-top:1.5%;
+font-size:32px;
+text-decoration: none;
+color:#290001;
+}
+
+a.send_email_button_text{
+text-decoration: none;
+color: white;
+color:#290001;
+}
+
+input.button:hover{
+
+}
+
+/*Global Entities*/
+ul.navigation_bar{
+border: solid 1px black;
+background-color: #C87941;
+list-style-type: none;
+margin: 0;
+overflow: hidden;
+padding: 0;
+
+}
+
+li.navigation_block a.navigation_text{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:#290001;
+display: block;
+float: left;
+padding: 14px 16px;
+text-align: center;
+text-decoration: none;
+}
+
+li.navigation_block:last-child{
+    
+}
+
+li.navigation_block a.navigation_text:hover{
+background-color: #87431D;
+color:#290001;  
+}
+
+/*Shared Entities*/
+body{
+background-color: #DBCBBD;
+}
+
+
+div.Headers{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+margin:1%;
+color:#290001;
+}
+
+div.copyright{
+text-align: right;
+top: 90%;
+left:90%;
+position: absolute;
+color:#290001;
+}
+
+div.icon_container{
+height:30%;
+}
+
+div.icon{
+max-width: 100%;
+max-height:auto;
+float: left;
+text-align: center;
+padding-right: 10%;
+color:#290001;
+}
